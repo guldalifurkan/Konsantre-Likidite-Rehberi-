@@ -5,8 +5,8 @@ Bir piyasada fiyatta çok önemli değişikliklere sebep olmadan bir varlığın
 Likidite kavramı iki farklı alanı ifade edebilir. Likit bir piyasa ve likit bir varlık.
 Likit piyasa, piyasada işlem yapmak isteyen çok sayıda yatırımcı olduğuna işaret eder. Likit bir varlık ise kolayca nakde dönüştürülebilecek bir varlık anlamına gelir. 
 Likidite eklemek; bir platformda işlem gören token çiftine ait havuza protokollerin izin verme durumuna göre birisini ya da her ikisini birden eklemektir. Geleneksel Likidite ekleme işlemini yaparken genellikle bir token çiftini aynı oranında havuza eklersiniz.
-Örnek vermek gerekirse  herhangi bir platforma likidite ekleyebilmek için bir likidite pairine ihtiyacınız var bu ETH - USDT havuzuna ( Pool ) 1 ETH likidite ekleyecekseniz $ETH ‘nin karşılık geldiği değer kadar da diğer tokenden eklemeniz gerekir.
-İşlem yaptığınız sırada ETH ‘nin 4000$ olduğunu varsayarsak havuza 4000$ USDT eklemeniz gerekir.
+Örnek vermek gerekirse  herhangi bir platforma likidite ekleyebilmek için bir likidite pairine ihtiyacınız var bu ETH - USDT havuzuna ( Pool ) 1 ETH likidite ekleyecekseniz ETH'nin karşılık geldiği değer kadar da diğer tokenden eklemeniz gerekir.
+İşlem yaptığınız sırada ETH'nin 4000$ olduğunu varsayarsak havuza 4000$ USDT eklemeniz gerekir.
 Mesela ETH fiyatı 4500$ oldu diyelim.Ne olacak sonuçta pair eşit olmalı.
 Böyle bi durumda Smart Contract ETH satıp havuzu dengeler.
 ETH fiyatı düşerse bu sefer USDT satıp ETH alarak havuzu dengeler.İsminin geçici kayıp olmasının nedeni budur.Fiyat bugün düştüyse yarın çıkarak yerine gelebilir.
