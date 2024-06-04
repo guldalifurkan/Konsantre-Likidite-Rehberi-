@@ -5,11 +5,11 @@ Bir piyasada fiyatta çok önemli değişikliklere sebep olmadan bir varlığın
 Likidite kavramı iki farklı alanı ifade edebilir. Likit bir piyasa ve likit bir varlık.
 Likit piyasa, piyasada işlem yapmak isteyen çok sayıda yatırımcı olduğuna işaret eder. Likit bir varlık ise kolayca nakde dönüştürülebilecek bir varlık anlamına gelir. 
 Likidite eklemek; bir platformda işlem gören token çiftine ait havuza protokollerin izin verme durumuna göre birisini ya da her ikisini birden eklemektir. Geleneksel Likidite ekleme işlemini yaparken genellikle bir token çiftini aynı oranında havuza eklersiniz.
-Örnek vermek gerekirse  herhangi bir platforma likidite ekleyebilmek için bir likidite pairine ihtiyacınız var bu $ETH — $USDT havuzuna ( Pool ) 1 $ETH likidite ekleyecekseniz $ETH ‘nin karşılık geldiği değer kadar da diğer tokenden eklemeniz gerekir.
-İşlem yaptığınız sırada $ETH ‘nin 4000$ olduğunu varsayarsak havuza 4000 $USDT eklemeniz gerekir.
-Mesela ETH fiyatı 4500$ oldu diyelim ne olacak,sonuçta pair eşit olmalı.
+Örnek vermek gerekirse  herhangi bir platforma likidite ekleyebilmek için bir likidite pairine ihtiyacınız var bu $ETH - $USDT havuzuna ( Pool ) 1 $ETH likidite ekleyecekseniz $ETH ‘nin karşılık geldiği değer kadar da diğer tokenden eklemeniz gerekir.
+İşlem yaptığınız sırada $ETH ‘nin 4000 olduğunu varsayarsak havuza 4000 $USDT eklemeniz gerekir.
+Mesela $ETH fiyatı 4500 oldu diyelim ne olacak,sonuçta pair eşit olmalı.
 Böyle bi durumda Smart Contract ETH satıp havuzu dengeler.
-ETH fiyatı düşerse bu sefer USDT satıp ETH alarak havuzu dengele.İsminin geçici kayıp olmasının nedeni budur.Fiyat bugün düştüyse yarın çıkarak yerine gelebilir.
+ETH fiyatı düşerse bu sefer USDT satıp ETH alarak havuzu dengeler.İsminin geçici kayıp olmasının nedeni budur.Fiyat bugün düştüyse yarın çıkarak yerine gelebilir.
 Likidite eklemenin mantığını anladıysak ‘Konsantre Likidite’nin nasıl çalıştığına bakalım.
 Konsantre likidite size işlem gören bir token çiftine ait belirli bir fiyat aralığına likidite eklemenize imkan sağlar. Bunun amacı fonlarınızı daha verimli kullanmaktır. Örneğin üstte bahsettiğim örnekte 8000$ likidite ekleyip elde edeceğiniz geliri, konsantre likidite ile dar bir fiyat aralığına 800$ ekleyerek de kazanabilirsiniz.
 Yine örnekle açıklayalım. Üstte verdiğim örnekte havuz toplamı 80.000$ ve sizin payınız %10. Eğer tüm havuz yerine $ETH — $USDT için 3900$-4100$ aralığına 800$ likidite ekleseniz ve bu aralıktaki toplam likidite de $8000 dolar ise yine aynı oranda gelir elde edersiniz.
